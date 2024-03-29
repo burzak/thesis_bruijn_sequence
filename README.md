@@ -1,6 +1,6 @@
 # Cadenas de Bruijn algoritmo de Huang
 
-# Como correrlo
+## Como correrlo
 
 Para correr esto solo hay que install node
 
@@ -18,3 +18,15 @@ npx ts-node bruijn.ts 0101 verbose
 # debemos pasar la cadena como primer argumento y el orden de la cadena, en este caso 4
 npx ts-node check_bruijn.ts 1000011110100101100 4
 ```
+
+## Visualizador del grafo
+
+```bash
+cd reactapp
+
+npm install
+
+npm run start
+```
+
+![Visualizador](./reactapp/screenshot.png)

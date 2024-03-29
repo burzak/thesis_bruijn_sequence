@@ -1,0 +1,26 @@
+.graph-control {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 250px;
+  background-color: rgb(200, 224, 216);
+  color: #b41a1a;
+  overflow: auto;
+}
+
+.graph-control button,
+.graph-control input,
+.graph-control select {
+  padding: 5px 2px;
+  margin: 5px;
+  width: 90%;
+}
+
+.graph-control p {
+  color: #261a1a;
+  padding-left: 7px;
+}
+
+.extra-data .cadena {
+  word-wrap: break-word;
+}
